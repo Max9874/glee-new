@@ -1,0 +1,54 @@
+$main-color: #436372;
+$title-color: #243f4d;
+$subtitle-color: #191919;
+$main-footer-color:#7b7b7b;
+%dmsans-700 {
+    font-family: 'DMSans-Bold', sans-serif;
+    font-weight: 700;
+}
+
+%dmsans-500 {
+    font-family: 'DMSans-Medium', sans-serif;
+    font-weight: 500;
+}
+
+%dmsans-400 {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-weight: 400;
+}
+
+%rubic-700 {
+    font-family: 'Rubik-Bold', sans-serif;
+    font-weight: 700;
+}
+
+%rubic-400 {
+    font-family: 'Rubic-Regular', sans-serif;
+    font-weight: 400;
+}
+
+%rubic-500 {
+    font-family: 'Rubic-Medium', sans-serif;
+    font-weight: 500;
+}
+
+%rubic-300 {
+    font-family: 'Rubic-Light', sans-serif;
+    font-weight: 300;
+}
+
+%checkbox-hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    position: absolute;
+}
+
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+    @return m#{1}n(#{ $numbers});
+}
